@@ -1,6 +1,6 @@
 https://linuxhint.com/ultimate-guide-to-install-flask-on-ubuntu/
-export flask_application=index.py
-flask run
+https://www.makeuseof.com/tag/build-linux-web-server-computer-part-1/
 
-export FLASK_APP="index.py"
-source venv/bin/activate
+source venv/bin/activate && export FLASK_APP="index.py" && flask run
+
+git push -f --set-upstream
